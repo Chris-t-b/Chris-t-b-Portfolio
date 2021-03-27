@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #249607;
+    --secondary-colo: #1d0ea3f3;
+    --tertiary-color: #000000;  
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header styles*/
+
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-colo);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url(http://getwallpapers.com/wallpaper/full/9/1/6/1060941-green-forest-wallpaper-1920x1080-pc.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+ header h1 {
+     font-weight: bold;
+     font-size: 40px;
+     color: var(--tertiary-color);
+     margin: 0;
+     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ header a {
+     text-decoration: none;
+     color: var(--tertiary-color);
+ }
+ header nav {
+     margin: 7px 0;
+ }
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* header ends*/
